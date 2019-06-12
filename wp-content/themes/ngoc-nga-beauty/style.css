@@ -7,8 +7,13 @@ Version: 3.0
 */
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
-
-
+p{margin-bottom:1px;}
+.section-title-main{background-color:rgb(255, 206, 96);}
+.section-title b{color:rgb(0, 134, 92);}
+.section-title-bold-center span, .section-title-bold span{color:rgb(0, 134, 92);}
+.row .row-small:not(.row-collapse), .container .row-small:not(.row-collapse){margin-left:0px}
+span.amount{color:red;}
+.box-text a:not(.button){font-weight: bold; color: #00330e;}
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
